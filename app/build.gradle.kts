@@ -6,9 +6,7 @@ plugins {
 android {
     namespace = "me.rodolfohernandez.statecompose2"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(37)
     }
 
     defaultConfig {
